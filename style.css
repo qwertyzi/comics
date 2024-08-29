@@ -3,6 +3,7 @@ body {
     font-family: 'StratosSkyeng', sans-serif;
     margin: 0;
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .header {
@@ -11,4 +12,34 @@ body {
     background-position: center;
     background-size: cover;
     background-image: url(./images/head.png);
+}
+
+.content {
+    padding-top: 75px;
+}
+
+table {
+    width: 1200px;
+    height: 100vh;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr, td {
+    border: 25px solid white;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+img {
+    width: 560px;
+}
+
+p {
+    background-color: white;
+    width: max-content;
+    padding: 10px 30px;
+    font-size: 30px;
+    border-radius: 25px;
+    margin: 23px auto;
 }
