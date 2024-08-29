@@ -4,6 +4,8 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-position: bottom;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 
 .header {
@@ -12,10 +14,13 @@ body {
     background-position: center;
     background-size: cover;
     background-image: url(./images/head.png);
+    background-attachment: fixed;
 }
 
 .content {
     padding-top: 75px;
+    border-top: 25px solid black;
+    position: relative;
 }
 
 table {
@@ -42,4 +47,17 @@ p {
     font-size: 30px;
     border-radius: 25px;
     margin: 23px auto;
+}
+
+a {
+    display: block;
+    background-color: #894aff;
+    color: white;
+    padding: 11px 30px;
+    border-radius: 50px;
+    font-size: 38px;
+    position:absolute;
+    bottom: 75px;
+    right: 80px;
+    text-decoration: none;
 }
