@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
+    background-size: auto;
     scroll-behavior: smooth;
 }
 
@@ -40,14 +41,7 @@ img {
     width: 560px;
 }
 
-p {
-    background-color: white;
-    width: max-content;
-    padding: 10px 30px;
-    font-size: 30px;
-    border-radius: 25px;
-    margin: 23px auto;
-}
+
 
 a {
     display: block;
